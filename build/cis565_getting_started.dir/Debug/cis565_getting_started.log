@@ -1,5 +1,37 @@
-﻿     Creating library D:/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.lib and object D:/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.exp
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\CIS565\Project0-Getting-Started\build\bin\Debug\vc120.pdb'; linking object as if no debug info
+﻿  Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  -- Removing D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  "C:/Program Files/CMake/bin/cmake.exe" -E rm -f D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  -- Generating dependency file: D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend
+  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin/nvcc.exe" -M -D__CUDACC__ D:/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu -o D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend -ccbin "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe" -m64 -DCUDA_COMPUTE_75 -DGLEW_STATIC -Xcompiler ,\"/DWIN32\",\"/D_WINDOWS\",\"/W3\",\"/GR\",\"/EHsc\",\"/MDd\",\"/Zi\",\"/Ob0\",\"/Od\",\"/RTC1\" -gencode arch=compute_75,code=sm_75 -g -G -DNVCC "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include" -ID:/CIS565/Project0-Getting-Started/cuda-getting-started/external/include
+  kernel.cu
+  -- Generating temporary cmake readable file: D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp
+  "C:/Program Files/CMake/bin/cmake.exe" -D input_file:FILEPATH=D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend -D output_file:FILEPATH=D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp -D verbose=ON -P "C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA/make2cmake.cmake"
+  -- Copy if different D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp to D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend
+  "C:/Program Files/CMake/bin/cmake.exe" -E copy_if_different D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend
+  -- Removing D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp and D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend
+  "C:/Program Files/CMake/bin/cmake.exe" -E rm -f D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend.tmp D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.NVCC-depend
+  -- Generating D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj
+  "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin/nvcc.exe" D:/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu -c -o D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj -ccbin "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe" -m64 -DCUDA_COMPUTE_75 -DGLEW_STATIC -Xcompiler ,\"/DWIN32\",\"/D_WINDOWS\",\"/W3\",\"/GR\",\"/EHsc\",\"/MDd\",\"/Zi\",\"/Ob0\",\"/Od\",\"/RTC1\" -gencode arch=compute_75,code=sm_75 -g -G -DNVCC "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include" -ID:/CIS565/Project0-Getting-Started/cuda-getting-started/external/include
+  kernel.cu
+D:/CIS565/Project0-Getting-Started/cuda-getting-started/src/kernel.cu(68): warning C4996: 'cudaThreadSynchronize': 琚０鏄庝负宸插惁鍐?
+  Generated D:/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj successfully.
+  c:\program files\nvidia gpu computing toolkit\cuda\v11.0\include\cuda_runtime_api.h(967): note: 鍙傝鈥渃udaThreadSynchronize鈥濈殑澹版槑
+  Building Custom Rule D:/CIS565/Project0-Getting-Started/cuda-getting-started/CMakeLists.txt
+  glslUtility.cpp
+  main.cpp
+D:\CIS565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(94): warning C4996: 'cudaGLRegisterBufferObject': 被声明为已否决
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(327): note: 参见“cudaGLRegisterBufferObject”的声明
+D:\CIS565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(135): warning C4996: 'cudaGLSetGLDevice': 被声明为已否决
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(305): note: 参见“cudaGLSetGLDevice”的声明
+D:\CIS565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(169): warning C4996: 'cudaGLMapBufferObject': 被声明为已否决
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(356): note: 参见“cudaGLMapBufferObject”的声明
+D:\CIS565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(175): warning C4996: 'cudaGLUnmapBufferObject': 被声明为已否决
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(382): note: 参见“cudaGLUnmapBufferObject”的声明
+D:\CIS565\Project0-Getting-Started\cuda-getting-started\src\main.cpp(224): warning C4996: 'cudaGLUnregisterBufferObject': 被声明为已否决
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(404): note: 参见“cudaGLUnregisterBufferObject”的声明
+  正在生成代码...
+    正在创建库 D:/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.lib 和对象 D:/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“D:\CIS565\Project0-Getting-Started\build\bin\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   cis565_getting_started.vcxproj -> D:\CIS565\Project0-Getting-Started\build\bin\Debug\cis565_getting_started.exe
